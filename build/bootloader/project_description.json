@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/flavio/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/flavio/Documents/chuveiro/codigovscode/build/bootloader",
+    "config_file":        "/home/flavio/Documents/chuveiro/codigovscode/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.0-dev-79-gbcbef9a8db",
+    "target":             "esp32s2",
+    "rev":                "",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s2-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/flavio/esp/esp-idf/components/efuse/Kconfig;/home/flavio/esp/esp-idf/components/esp32s2/Kconfig;/home/flavio/esp/esp-idf/components/esp_common/Kconfig;/home/flavio/esp/esp-idf/components/esp_hw_support/Kconfig;/home/flavio/esp/esp-idf/components/esp_system/Kconfig;/home/flavio/esp/esp-idf/components/freertos/Kconfig;/home/flavio/esp/esp-idf/components/hal/Kconfig;/home/flavio/esp/esp-idf/components/log/Kconfig;/home/flavio/esp/esp-idf/components/newlib/Kconfig;/home/flavio/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/flavio/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/flavio/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/flavio/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/flavio/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s2", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/flavio/esp/esp-idf/components/bootloader", "/home/flavio/esp/esp-idf/components/bootloader_support", "/home/flavio/esp/esp-idf/components/efuse", "/home/flavio/esp/esp-idf/components/esp32s2", "/home/flavio/esp/esp-idf/components/esp_common", "/home/flavio/esp/esp-idf/components/esp_hw_support", "/home/flavio/esp/esp-idf/components/esp_rom", "/home/flavio/esp/esp-idf/components/esp_system", "/home/flavio/esp/esp-idf/components/esptool_py", "/home/flavio/esp/esp-idf/components/freertos", "/home/flavio/esp/esp-idf/components/hal", "/home/flavio/esp/esp-idf/components/log", "/home/flavio/esp/esp-idf/components/bootloader/subproject/main", "/home/flavio/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/flavio/esp/esp-idf/components/newlib", "/home/flavio/esp/esp-idf/components/partition_table", "/home/flavio/esp/esp-idf/components/soc", "/home/flavio/esp/esp-idf/components/spi_flash", "/home/flavio/esp/esp-idf/components/xtensa", "" ]
+}
