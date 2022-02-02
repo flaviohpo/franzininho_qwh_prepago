@@ -22,3 +22,10 @@ No momento que o usuário utiliza seu tag no leitor, três opções de utilizaç
 Nos modos 1 e 2, um aviso sonoro é emitido quando estiver faltando 10% do tempo/energia pré-selecionado(a).
 Caso o usuário termine a utilização de maneira antecipada, basta passar seu tag no leitor que o equipamento é desligado.
 
+## Hardawre
+
+ESP32-S2 (Franzininho-wifi)
+relé estado sólido
+Sensor de corrente alternada
+Display ST7789
+Leitor RFID
